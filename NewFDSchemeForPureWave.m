@@ -131,7 +131,7 @@ for it=1:nt-2,
     
     Vx=Vxp+Vxs;
     Vz=Vzp+Vzs;
-    [Vx,Vz]=spongeABC(Vx,Vz,nx,nz,45,45,0.009);
+    % [Vx,Vz]=spongeABC(Vx,Vz,nx,nz,45,45,0.009);
     % Vz(zs,xs)=Vz(zs,xs)+src(it);
     
     Vxx=coeff(1)*(circshift(Vx,[0 -1])-circshift(Vx,[0 0]))+...
