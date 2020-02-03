@@ -224,7 +224,7 @@ for it=1:nt-2,
     Txx(zs,xs)=Txx(zs,xs)+src(it);
     Tzz(zs,xs)=Tzz(zs,xs)+src(it);
                
-    [Vx,Vz]=spongeABC(Vx,Vz,nx,nz,45,45,0.009);
+%   [Vx,Vz]=spongeABC(Vx,Vz,nx,nz,45,45,0.009);
     
     
 %     if rem(it,isnap)== 0,
